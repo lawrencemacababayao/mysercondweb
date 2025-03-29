@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fugaz+One&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Rowdies:wght@300;400;700&display=swap');
+body {
+    background-color: whitesmoke;
+}
+.bg-intro {
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+    z-index: -2;
+    
+}
+video {
+    width: 100%;
+    height: 197%;
+    position: absolute;
+    filter: brightness(30%);
+    z-index: -1;
+}
+
+.about-header {
+    text-align: center;
+    color:rgb(172, 172, 172);
+    padding-top: 150px;
+    font-family: "Fugaz";
+    font-size: 100px;
+}
+.about {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.two {
+        width: 100%;
+        height: 130vh;
+        padding: 200px;
+        padding-top: 80px;
+        background-color: rgb(230, 229, 229);
+}
+
+.two-cont {
+    width: 100%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(300px);
+}
+.boxess {
+background-color: rgb(26, 26, 26);
+}
+
+.sub {
+    width: 100%;
+}
+
+.image-holder {
+    height: 60%;
+}
+.text-holder {
+    height: 40%;
+}
+.pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-title {
+    font-size: 30px;
+    padding-top: 30px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.box-desc {
+    font-size: 15px;
+    padding-top: 30px;
+    color: whitesmoke;
+    width: 500px;
+    text-align: center;
+    padding-left: 17px
+}
+
+.three {
+    width: 100%;
+    height: 80vh;
+    padding: 200px;
+    padding-top: 80px;
+}
+
+.cont-three {
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(300px);
+    
+}
+.three-title-header {
+    width: 100%;
+
+}
+.threetitlee{
+    font-family: "Fugaz one";
+    text-align: center;
+}
+
+.contttt {
+    text-align: center;
+    margin-top: 50px;
+    line-height: 60px;
+}
+.cap {
+    color: gray;
+}
+.four {
+    width: 100%;
+    height: 25vh;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: rgb(172, 172, 172);
+}
+
+.logo-footer-holder {
+    width: 100%;
+    text-align: center;
+}
+.footer-logo {
+    width:180px;
+    padding-bottom: -90px;
+
+}
+.footer-desc {
+    margin: -30px;
+}
+
+@media (max-width:1024px) {
+    .middle {
+        display: none;
+
+    }
+    
+    .burg{
+        display: block;
+     }
+     .two {
+        width: 100%;
+        height: 130vh;
+        padding: 200px;
+        padding-top: 80px;
+        background-color: rgb(230, 229, 229);
+}
+     .two-cont {
+        width: 100%;
+        height: 70vh;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: minmax(300px);
+    }
+    .three {
+        width: 100%;
+        height: 80vh;
+        padding: 20px;
+    }
+    .three-title-header {
+        margin-top: 400px;
+    }
+    .cont-three {
+        width: 100%;
+        height: 50vh;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: minmax(300px);
+
+    }
+    .four {
+        width: 100%;
+        height: 25vh;
+        padding-left: 200px;
+        padding-right: 200px;
+        background-color: rgb(172, 172, 172);
+        margin-top: 900px;
+    }
+    .bg-intro {
+        width: 100%;
+        height: 60vh;
+        overflow: hidden;
+        position: relative;
+        z-index: -2;
+        
+    }
+    video {
+        width: 100%;
+        height: 130%;
+        position: absolute;
+        filter: brightness(30%);
+        z-index: -1;
+    }
+}
+
+
+
+@media (max-width:500px) {
+    .middle {
+        display: none;
+    }
+    .right {
+        display: block;
+    }
+    .two {
+        width: 100%;
+        height: 130vh;
+        padding: 10px;
+        padding-top: 80px;
+        background-color: rgb(230, 229, 229);
+}
+     .two-cont {
+        width: 100%;
+        height: 70vh;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: minmax(300px);
+    }
+    .four {
+        width: 100%;
+        height: 25vh;
+        padding-left: 150px;
+        padding-right: 150px;
+        background-color: rgb(172, 172, 172);
+        margin-top: 900px;
+    }
+    video {
+        height: 63%;
+
+    }
+    .about-header {
+        padding-top: 100px;
+        font-size: 50px;
+    }
+}

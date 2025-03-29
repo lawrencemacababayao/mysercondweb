@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fugaz+One&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Rowdies:wght@300;400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(174, 172, 172);
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+
+}
+
+.header-box {
+    flex: 1;
+}
+.left {
+    display: flex;
+    align-items: center;
+    font-family: "Fugaz One";
+    font-weight: 400px;
+    font-style: normal;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    color: black;
+
+}
+.header-a {
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.header-a:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.header-a:focus,
+.header-a:active {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.contact {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+i {
+    float: right;
+    padding-right: 60px;
+    font-size: 30px;
+    color: black;
+    
+}
+.burg{
+   display: none;
+}
+
+h1 {
+    margin: -33px;
+    padding-top: 2px;
+    font-size: 40px;
+    font-weight: bold;
+}
+i:hover {
+    cursor: pointer;
+}
+
+.bg-intro {
+    width: 100%;
+    height: 55vh;
+    overflow: hidden;
+    position: relative;
+    z-index: -2;
+    background-color: black;
+    
+}
+video {
+    width: 100%;
+    height: 197%;
+    position: absolute;
+    filter: brightness(30%);
+    z-index: -1;
+}
+.about-header {
+    text-align: center;
+    color:rgb(172, 172, 172);
+    padding-top: 150px;
+    font-family: "Fugaz";
+    font-size: 100px;
+}
+.twoo {
+    width: 100%;
+    height: 130vh;
+    padding: 200px;
+    padding-top: 70px;
+background-color: rgb(230, 230, 230);
+
+}
+
+.contact-des {
+    text-align: center;
+    color: grey;
+    padding-bottom: 70px;
+}
+.cont-two {
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(300px);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(66, 66, 66);
+}
+.boxes {
+    background-color: rgb(255, 255, 255);
+}
+.child-two iframe {
+    border-top-left-radius: 10px;  
+    border-bottom-left-radius: 10px;
+}
+.contact-us-header {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+    width: 100%;
+}
+.framee {
+    border-top-left-radius: 10px;  
+    border-bottom-left-radius: 10px;
+}
+.framee-two {
+    border-top-right-radius: 10px;  
+    border-bottom-right-radius: 10px;
+    border-left: 1px solid black;
+}
+.input-holder {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+input {
+    width: 400px;
+    height: 45px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+textarea {
+    width: 400px;
+    height: 140px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+input, textarea {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+input::placeholder, textarea::placeholder {
+padding: 5px;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    margin-left: 170px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    transition: 0.2s ease-in-out;
+    border-radius: 5px;
+    border: none;
+}
+button:hover {
+    width: 150px;
+    height: 40px;
+    margin-left: 155px;
+    margin-top: 30px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(174, 172, 172);
+}
+
+
+
+
+
+
+
+@media (max-width:1024px) {
+    .middle {
+        display: none;
+
+    }
+    
+    .burg{
+        display: block;
+     }
+     .cont-two {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+    }
+    body {
+    background-color: rgb(174, 172, 172);
+    }
+    .framee {
+        width: 400px;
+    }
+    .framee-two {
+      width: 945px;
+    }
+    input {
+        width: 600px;
+        margin-left: 120px;
+    }
+    .twoo {
+        padding: 20px;
+    }
+    textarea {
+        width: 600px;
+        margin-left: 120px;
+    }
+
+    button {
+        width: 120px;
+        height: 40px;
+        margin-left: 360px;
+        margin-top: 30px;
+    }
+    button:hover {
+        width: 150px;
+        height: 40px;
+        margin-left: 345px;
+        margin-top: 30px;
+        background-color: rgb(33, 33, 33);
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgb(0, 0, 0);
+        cursor: pointer;
+    }
+    
+    iframe {
+        width: 945px;
+        height: 400px;
+        border: 0;
+    }
+    video {
+        width: 100%;
+        height: 130%;
+        position: absolute; 
+        filter: brightness(20%);
+        z-index: -1;
+    }
+
+}
+
+
+
+@media (max-width:500px) {
+    .middle {
+        display: none;
+    }
+    .right {
+        display: block;
+    }
+    .cont-two {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+    }
+
+    .framee {
+        width: 400px;
+    }
+    .framee-two {
+      width: 450px;
+    }
+    input {
+        width: 300px;
+        margin-left: 60px;
+    }
+    .twoo {
+        padding: 20px;
+    }
+    textarea {
+        width: 300px;
+        margin-left: 60px;
+    }
+
+    button {
+        width: 120px;
+        height: 40px;
+        margin-left: 160px;
+        margin-top: 30px;
+    }
+    button:hover {
+        width: 150px;
+        height: 40px;
+        margin-left: 145px;
+        margin-top: 30px;
+        background-color: rgb(33, 33, 33);
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgb(0, 0, 0);
+        cursor: pointer;
+    }
+    
+    iframe {
+        width: 450px;
+        height: 400px;
+        border: 0;
+    }
+    body {
+        background-color: rgb(174, 172, 172);
+    }   
+    video {
+        width: 100%;
+        height: 80%;
+        position: absolute; 
+        filter: brightness(20%);
+        z-index: -1;
+    }
+    .about-header {
+        text-align: center;
+        color:rgb(172, 172, 172);
+        padding-top: 150px;
+        font-family: "Fugaz";
+        font-size: 50px;
+    }
+
+}
